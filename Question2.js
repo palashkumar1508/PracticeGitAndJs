@@ -15,8 +15,6 @@
 // leader is 5. The right most element 
 // is always a leader so it is also 
 // included.
-
-
 let n = 6 ;
 let A = [16,17,4,3,5,2];
 
