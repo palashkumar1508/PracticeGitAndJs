@@ -15,6 +15,21 @@
 
 let N =5;
 let K =3 ;
-
 let arr = [1,2,3,4,5];
 
+let arr1 = [];
+
+for(let i =0 ;  i<N ; i=i+K){
+    let temp =[];
+        for(let j=i ; j<i+K ; j++){
+            temp.push(arr[j]);
+        }
+    temp = temp.reverse();
+    arr1 = arr1.concat(temp);
+}
+
+for(let i = 0 ; i < arr1.length ; i++){
+    if(arr1[i] != undefined){
+        console.log(arr1[i]);
+    }
+}
