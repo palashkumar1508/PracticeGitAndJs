@@ -16,7 +16,6 @@
 let N =5;
 let K =3 ;
 let arr = [1,2,3,4,5];
-
 let arr1 = [];
 
 for(let i =0 ;  i<N ; i=i+K){
